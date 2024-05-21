@@ -1,0 +1,21 @@
+
+# Importing dracula theme
+import = ["~/.config/alacritty/dracula.toml"]
+
+[window]
+padding = {x = 15, y = 10}
+
+[font]
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+size = 14
+
+# Colors
+# The colors are handled by the theme import (l.3)
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Beam", blinking = "Off"}
+
+
